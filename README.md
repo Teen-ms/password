@@ -19,7 +19,8 @@ Generated passwords can be copied to the clipboard with a single click.
 Responsive Design: The app is designed to work seamlessly on both desktop and mobile devices.
 
 Usage:-
-![alt text](<Screenshot 2025-02-11 135730.png>)
+
+![Screenshot 2025-02-11 135730](https://github.com/user-attachments/assets/d4bccc3e-b23c-4091-9f8e-fb9bf16de6ab)
 
 Set Password Length:
 Use the input field to specify the desired password length (between 8 and 32 characters).
