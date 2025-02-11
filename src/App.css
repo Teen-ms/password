@@ -1,0 +1,123 @@
+
+body{
+background-color:#FFE6E6;
+/* background-color: #f39c12; */
+}
+/* Container styling */
+.containerStyle {
+  background-color: black;
+  color: #ffffff;
+  width: 320px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+ box-shadow: 1px 1px 8px 8px whitesmoke;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Heading */
+.heading h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+/* Input container */ 
+.inputContainerStyle {
+  margin: 15px 0;
+}
+
+/* Labels */
+.labelStyle {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  text-align: left;
+  color: #ffffff;
+}
+
+/* Inputs */
+.inputStyle {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #40444b;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+/* Checkbox container */
+.checkboxContainerStyle {
+  margin: 15px 0;
+  text-align: left;
+}
+
+/* Checkbox labels */
+.checkboxContainerStyle label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+/* Checkboxes */
+.checkboxContainerStyle input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Generate button */
+.buttonStyle {
+  width: 100%;
+  padding: 12px;
+  background-color: #f39c12;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.buttonStyle:hover {
+  background-color: #e67e22;
+}
+
+/* Copy button */
+button[style*="marginLeft"] {
+  padding: 10px 15px;
+  background-color: #f39c12;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button[style*="marginLeft"]:hover {
+  background-color: #e67e22;
+}
+
+/* Success message */
+p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Input and button alignment */
+.inputContainerStyle input[type="text"] {
+  display: inline-block;
+  width: calc(100% - 70px);
+  margin-right: 10px;
+}
+
+.inputContainerStyle button {
+  display: inline-block;
+  vertical-align: middle;
+}
